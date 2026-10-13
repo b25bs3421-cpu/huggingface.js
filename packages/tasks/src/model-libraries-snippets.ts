@@ -4,7 +4,6 @@ import { LIBRARY_TASK_MAPPING, REMOVED_IN_V5_TRANSFORMERS_PIPELINES } from "./li
 import { getModelInputSnippet } from "./snippets/inputs.js";
 import type { ChatCompletionInputMessage } from "./tasks/index.js";
 import { stringifyMessages } from "./snippets/common.js";
-
 const TAG_CUSTOM_CODE = "custom_code";
 
 function nameWithoutNamespace(modelId: string): string {
